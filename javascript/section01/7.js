@@ -1,12 +1,9 @@
 function solution(date, carNums){
 
     let count = 0;
-    for(i = 0; i < carNums.length; i++){
-        if( carNums[i]%10 == date ){
-            count += 1;
-        }
-    }
-
+    carNums.forEach(el => {
+        if(el%10 == date ) count += 1;
+    });
     return count;
 
 }

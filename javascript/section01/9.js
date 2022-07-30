@@ -1,9 +1,9 @@
-function solution(banana){
+function solution(str){
     
     let answer = "";
-    for(let s of banana){
-        if(s == "A") answer += "#";
-        else answer += s;
+
+    for(let s of str){
+        answer += (s == 'A') ? "#":s;
     }
     return answer;
 }

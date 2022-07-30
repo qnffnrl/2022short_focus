@@ -8,9 +8,9 @@ function solution(arr){
         }
     }
 
-    for(j = 0; j < arr.length; j++){
-        console.log(arr[j]);
-    }
+    arr.forEach(el => {
+        console.log(el);
+    });
 
 }
 solution(['good', 'time', 'good', 'time', 'student']);

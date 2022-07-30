@@ -1,21 +1,17 @@
 function solution(arr){
 
     let eachCount = [];
-    for(i = 0; i < arr.length; i++){
+    for(let i of arr){
         let count = 0;
-        for(k = 0; k < arr[i].length; k++){
+        for(let k of i){
             count += 1;
         }
         eachCount.push(count);
     }
-    
+
     max = eachCount[0];
-    for(j = 0; j < eachCount.length; j++){
-
-        if(max < eachCount[j]){
-            max = eachCount[j];
-        }
-
+    for(let j of eachCount){
+        if(max < j) max = j;
     }
 
     let index = eachCount.indexOf(max);

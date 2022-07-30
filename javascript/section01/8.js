@@ -1,13 +1,11 @@
 function solution(arr){
 
     let arrSum = 0;
+    arr.forEach(el => {arrSum += el;});
 
-    for(let i = 0; i < arr.length; i++){
-        arrSum += arr[i];
-    }
     let fakeSum = arrSum - 100;
 
-    for(let i = 0; i < arr.length -1; i++){
+    for(let i = 0; i < arr.length-1; i++){
         for(let j = i+1; j < arr.length; j++){
             if(arr[i]+arr[j] == fakeSum){
                 arr.splice(j, 1);
@@ -15,7 +13,7 @@ function solution(arr){
             }
         }
     }
-    console.log(arr);
+    console.log(arr.join(' '));
     
 }
 
