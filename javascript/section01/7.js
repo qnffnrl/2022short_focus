@@ -2,7 +2,7 @@ function solution(date, carNums){
 
     let count = 0;
     carNums.forEach(el => {
-        if(el%10 == date ) count += 1;
+        count += (el%10 == date) ? 1 : 0;
     });
     return count;
 
