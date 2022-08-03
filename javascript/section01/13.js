@@ -14,4 +14,8 @@ function solution(str){
 
 }
 
+const start = new Date();
 console.log(solution('StuDY'));
+const end = new Date();
+
+console.log("Running Time : " + (end-start)/100 + "sec");
