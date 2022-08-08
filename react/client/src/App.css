@@ -1,0 +1,13 @@
+#page {
+  margin: 0 auto;
+}
+div {
+  background-color: antiquewhite;
+  color: black;
+  padding: 40px;
+  font-family: 'Gothic', '고딕';
+  text-align: center;
+}
+h1{
+  background-color: burlywood;
+}
