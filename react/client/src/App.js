@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyTag from './MyTag'
+import MyTag2 from './MyTag2';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <h3>risker</h3>
       </div>
       <MyTag></MyTag>
+      <MyTag2></MyTag2>
     </div>
   );
 }
