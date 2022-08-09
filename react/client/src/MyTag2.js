@@ -11,6 +11,11 @@ class MyTag2 extends Component{
             count : this.state.count + 1
         });
     };
+    countDown = () => {
+        this.setState({
+            count : this.state.count - 1
+        });
+    }
 
     render(){
         return(
@@ -18,6 +23,7 @@ class MyTag2 extends Component{
                 <h3><u>User Define Component 2</u></h3>
                 <div>{this.state.count}</div>
                 <button onClick={this.countUp}>Count Up!!!</button>
+                <button onClick={this.countDown}>Count Down!!!</button>
             </div>
         )
     }
