@@ -9,9 +9,10 @@ function App() {
     <div id='page'>
         <h1>Hello React</h1>
         <h3>risker</h3>
-      <MyTag></MyTag>
-      <MyTag2></MyTag2>
-      <MyTag3></MyTag3>
+        <MyTag></MyTag>
+        <MyTag2></MyTag2>
+        <MyTag3></MyTag3>
+        {/* <p>{this.props.message}</p> */}
     </div>
   );
 }

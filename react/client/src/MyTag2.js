@@ -1,9 +1,24 @@
 import React, {Component} from 'react';
 
 class MyTag2 extends Component{
+
+    state = {
+        count : 1
+    };
+
+    countUp = () => {
+        this.setState({
+            count : this.state.count + 1
+        });
+    };
+
     render(){
         return(
-            <h3><u>User Define Component 2</u></h3>
+            <div className='myTag'>
+                <h3><u>User Define Component 2</u></h3>
+                <div>{this.state.count}</div>
+                <button onClick={this.countUp}>Count Up!!!</button>
+            </div>
         )
     }
 }
