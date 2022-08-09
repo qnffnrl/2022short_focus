@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyTag from './MyTag'
 import MyTag2 from './MyTag2';
+import MyTag3 from './MyTag3';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </div>
       <MyTag></MyTag>
       <MyTag2></MyTag2>
+      <MyTag3></MyTag3>
     </div>
   );
 }

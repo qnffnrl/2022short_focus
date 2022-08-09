@@ -11,3 +11,14 @@ div {
 h1{
   background-color: burlywood;
 }
+
+#bling {
+  font-weight: bolder;
+  font-size: 1.2em;
+  animation: point 1s infinite;
+}
+@keyframes point{
+  from{
+    color: red;
+  }
+}
