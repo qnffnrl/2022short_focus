@@ -7,10 +7,8 @@ import MyTag3 from './MyTag3';
 function App() {
   return (
     <div id='page'>
-      <div>
         <h1>Hello React</h1>
         <h3>risker</h3>
-      </div>
       <MyTag></MyTag>
       <MyTag2></MyTag2>
       <MyTag3></MyTag3>

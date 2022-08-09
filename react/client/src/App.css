@@ -1,7 +1,6 @@
 #page {
   margin: 0 auto;
-}
-div {
+  width: 720px;
   background-color: antiquewhite;
   color: black;
   padding: 40px;
