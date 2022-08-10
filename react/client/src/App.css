@@ -30,6 +30,15 @@ th{
   font-size: 13px;
 }
 
+#tableSector{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  margin: 0px 30px 25px 30px;
+}
+
 table, td, tr, th, thead, tbody{
   border: 1px solid black;
   border-collapse: collapse;

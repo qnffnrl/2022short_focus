@@ -60,7 +60,7 @@ export default class List extends Component{
 
     render(){
         return(
-            <div>
+            <div id="tableSector">
                 <table>
                     <tr>
                         <th>연번</th>
