@@ -1,6 +1,6 @@
 #page {
+  width: 80%;
   margin: 0 auto;
-  width: 720px;
   background-color: antiquewhite;
   color: black;
   padding: 40px;
@@ -9,26 +9,41 @@
 }
 h1{
   background-color: burlywood;
-  animation: point 1s infinite;
-}
-
-.myTag {
-  margin: 30px;
-  border: 3px solid black;
-  border-radius: 2em;
-  background-color: cadetblue;
-}
-
-.myTag:hover {
-  background-color: white;
 }
 
 #bling {
   font-weight: bolder;
   font-size: 1.2em;
 }
-@keyframes point{
+
+th{
+  background-color: darkgray;
+  animation: th 2s infinite;
+}
+@keyframes th{
   from{
-    color: red;
+    background-color: aliceblue;
   }
+}
+
+#listSector {
+  font-size: 13px;
+}
+
+table, td, tr, th, thead, tbody{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td{
+  max-width: 600px;
+  min-width: 50px;;
+}
+
+footer{
+  background-color: darkgray;
+  padding: 5px;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bolder;
 }
